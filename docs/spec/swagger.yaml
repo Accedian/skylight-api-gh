@@ -10393,29 +10393,7 @@ definitions:
         type: "string"
 
 
-  JsonApiRelationship:
-    type: "object"
-    properties:
-      data:
-        type: "array"
-        items:
-          $ref: '#/definitions/JsonApiRelationshipData'
-  JsonApiSingleRelationship:
-    type: "object"
-    properties:
-      data:
-        $ref: '#/definitions/JsonApiRelationshipData'
-
-
-  JsonApiRelationshipData:
-    type: "object"
-    properties:
-      type:
-        type: "string"
-      id:
-        type: "string"
-
-
+  
   AAAUser:
     type: "object"
     required:
